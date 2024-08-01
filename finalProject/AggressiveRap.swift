@@ -16,18 +16,16 @@ struct AggressiveRap: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Love Sosa- Chief Keef")
+                Text("FE!N- Travis Scott, Playboi Carti")
+                Text("Breathe- Yeat")
+                Text("HUMBLE.- Kendrick Lamar")
+                Text("Only- Nicki Minaj, Drake, Lil Wayne")
+                Text("Like That- Future, Metro Boomin, Kendrick Lamar")
+                Text("redrum- 21 Savage")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd?si=abb541352aae4053")!)
             }
             }
     }
