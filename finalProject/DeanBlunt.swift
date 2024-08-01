@@ -9,10 +9,12 @@
 import SwiftUI
 
 struct DeanBlunt: View {
+    @State private var showActionSheet = false
+
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 0) {
-                Image("deanblunt")
+                Image("deanblunt1")
                     .renderingMode(.original)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
@@ -27,18 +29,7 @@ struct DeanBlunt: View {
                                 .clipped()
                                 .foregroundStyle(.white)
                                 .padding(.leading)
-                            Image(systemName: "play.fill")
-                                .padding(12)
-                                .background {
-                                    Rectangle()
-                                        .fill(.clear)
-                                        .background(Material.thick)
-                                        .mask {
-                                            Circle()
-                                        }
-                                        .shadow(color: .black.opacity(0.5), radius: 8, x: 0, y: 4)
-                                }
-                                .font(.callout)
+                           
                         }
                         .padding()
                     }
@@ -51,6 +42,10 @@ struct DeanBlunt: View {
                         .clipped()
                         .mask { RoundedRectangle(cornerRadius: 3, style: .continuous) }
                         .shadow(color: Color(.sRGBLinear, red: 0/255, green: 0/255, blue: 0/255).opacity(0.25), radius: 8, x: 0, y: 4)
+                        .onTapGesture {
+                                showActionSheet = true
+                            }
+                    
                     VStack(alignment: .leading, spacing: 1) {
                         Text("FEATURED RELEASE")
                             .font(.system(.caption2, weight: .medium))
@@ -60,16 +55,7 @@ struct DeanBlunt: View {
                         Text("24 songs")
                             .foregroundStyle(.secondary)
                             .font(.subheadline)
-                        Image(systemName: "link")
-                            .imageScale(.small)
-                            .symbolRenderingMode(.monochrome)
-                            .foregroundStyle(.blue)
-                            .font(.system(.footnote, weight: .semibold))
-                            .padding(6)
-                            .background {
-                                Circle()
-                                    .foregroundStyle(Color(.systemFill))
-                            }
+                       
                             .padding(.top, 7)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -103,6 +89,31 @@ struct DeanBlunt: View {
                     .frame(height: 50)
                     .clipped()
             }
+        }
+        .actionSheet(isPresented: $showActionSheet) {
+            ActionSheet(
+                title: Text("Listen on"),
+                message: Text("Choose a platform"),
+                buttons: [
+                    .default(Text("Apple Music")) {
+                        
+                        openURL("https://music.apple.com/us/album/zushi/1504144470")
+                    },
+                    .default(Text("Spotify")) {
+                        openURL("https://open.spotify.com/album/6awMz5xtEk8XSlID98YfMv?autoplay=true")
+                    },
+                    .default(Text("YouTube")) {
+                        openURL("https://music.youtube.com/playlist?list=OLAK5uy_kQVkQEyMzi2Lk3yjW-kNA6v5t3tGzI2Ok")
+                    },
+                    
+                    .cancel()
+                ]
+            )
+        }
+    }
+    private func openURL(_ urlString: String) {
+        if let url = URL(string: urlString) {
+            UIApplication.shared.open(url)
         }
     }
 }

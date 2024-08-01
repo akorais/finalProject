@@ -7,6 +7,8 @@
 
 import SwiftUI
 struct TateMcrae: View {
+    @State private var showActionSheet = false
+
     var body: some View {
         
         ZStack {
@@ -18,9 +20,12 @@ struct TateMcrae: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(15)
+                    .onTapGesture {
+                            showActionSheet = true
+                        }
                 
             HStack {
-               Text("Tate Mcrae")
+               Text("   Tate Mcrae")
                     .fontWeight(.bold)
                 Text("New Upcoming Artist!!")
                 
@@ -36,6 +41,29 @@ struct TateMcrae: View {
         .shadow(radius: 7)
         .padding()
             
+        }
+        .actionSheet(isPresented: $showActionSheet) {
+            ActionSheet(
+                title: Text("Listen on"),
+                message: Text("Choose a platform"),
+                buttons: [
+                    .default(Text("Apple Music")) {
+                        openURL("https://music.apple.com/us/artist/tate-mcrae/1446365464")
+                    },
+                    .default(Text("Spotify")) {
+                        openURL("https://open.spotify.com/artist/45dkTj5sMRSjrmBSBeiHym?autoplay=true")
+                    },
+                    .default(Text("YouTube")) {
+                        openURL("https://music.youtube.com/channel/UCz86IA7ooUetFnUGa_YlsVw?feature=gws_kp_artist&feature=gws_kp_artist")
+                    },
+                    .cancel()
+                ]
+            )
+        }
+    }
+    private func openURL(_ urlString: String) {
+        if let url = URL(string: urlString) {
+            UIApplication.shared.open(url)
         }
     }
 }

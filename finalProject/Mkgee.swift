@@ -8,7 +8,10 @@
 
 import SwiftUI
 
+
 struct Mkgee: View {
+    @State private var showActionSheet = false
+
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 0) {
@@ -27,18 +30,7 @@ struct Mkgee: View {
                                 .clipped()
                                 .foregroundStyle(.white)
                                 .padding(.leading)
-                            Image(systemName: "play.fill")
-                                .padding(12)
-                                .background {
-                                    Rectangle()
-                                        .fill(.clear)
-                                        .background(Material.thick)
-                                        .mask {
-                                            Circle()
-                                        }
-                                        .shadow(color: .black.opacity(0.5), radius: 8, x: 0, y: 4)
-                                }
-                                .font(.callout)
+                            
                         }
                         .padding()
                     }
@@ -51,6 +43,10 @@ struct Mkgee: View {
                         .clipped()
                         .mask { RoundedRectangle(cornerRadius: 3, style: .continuous) }
                         .shadow(color: Color(.sRGBLinear, red: 0/255, green: 0/255, blue: 0/255).opacity(0.25), radius: 8, x: 0, y: 4)
+                        .onTapGesture {
+                                showActionSheet = true
+                            }
+                    
                     VStack(alignment: .leading, spacing: 1) {
                         Text("FEATURED RELEASE")
                             .font(.system(.caption2, weight: .medium))
@@ -60,16 +56,7 @@ struct Mkgee: View {
                         Text("12 songs")
                             .foregroundStyle(.secondary)
                             .font(.subheadline)
-                        Image(systemName: "link")
-                            .imageScale(.small)
-                            .symbolRenderingMode(.monochrome)
-                            .foregroundStyle(.blue)
-                            .font(.system(.footnote, weight: .semibold))
-                            .padding(6)
-                            .background {
-                                Circle()
-                                    .foregroundStyle(Color(.systemFill))
-                            }
+                        
                             .padding(.top, 7)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -103,6 +90,29 @@ struct Mkgee: View {
                     .frame(height: 50)
                     .clipped()
             }
+        }
+        .actionSheet(isPresented: $showActionSheet) {
+            ActionSheet(
+                title: Text("Listen on"),
+                message: Text("Choose a platform"),
+                buttons: [
+                    .default(Text("Apple Music")) {
+                        openURL("https://music.apple.com/us/album/two-star-the-dream-police/1726030992")
+                    },
+                    .default(Text("Spotify")) {
+                        openURL("https://open.spotify.com/album/6DlLdXBGCsSDPOV8R2pCl7?autoplay=true")
+                    },
+                    .default(Text("YouTube")) {
+                        openURL("https://music.youtube.com/playlist?list=OLAK5uy_lfFd9onx195eTvvpeBxQNxaC7F_TYD13U&feature=gws_kp_album&feature=gws_kp_artist")
+                    },
+                    .cancel()
+                ]
+            )
+        }
+    }
+    private func openURL(_ urlString: String) {
+        if let url = URL(string: urlString) {
+            UIApplication.shared.open(url)
         }
     }
 }

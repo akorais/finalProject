@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct Lenker: View {
+    @State private var showActionSheet = false
+
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack(spacing: 0) {
@@ -27,18 +29,7 @@ struct Lenker: View {
                                 .clipped()
                                 .foregroundStyle(.white)
                                 .padding(.leading)
-                            Image(systemName: "play.fill")
-                                .padding(12)
-                                .background {
-                                    Rectangle()
-                                        .fill(.clear)
-                                        .background(Material.thick)
-                                        .mask {
-                                            Circle()
-                                        }
-                                        .shadow(color: .black.opacity(0.5), radius: 8, x: 0, y: 4)
-                                }
-                                .font(.callout)
+                            
                         }
                         .padding()
                     }
@@ -51,6 +42,10 @@ struct Lenker: View {
                         .clipped()
                         .mask { RoundedRectangle(cornerRadius: 3, style: .continuous) }
                         .shadow(color: Color(.sRGBLinear, red: 0/255, green: 0/255, blue: 0/255).opacity(0.25), radius: 8, x: 0, y: 4)
+                        .onTapGesture {
+                                showActionSheet = true
+                            }
+                    
                     VStack(alignment: .leading, spacing: 1) {
                         Text("FEATURED RELEASE")
                             .font(.system(.caption2, weight: .medium))
@@ -60,16 +55,7 @@ struct Lenker: View {
                         Text("10 songs")
                             .foregroundStyle(.secondary)
                             .font(.subheadline)
-                        Image(systemName: "link")
-                            .imageScale(.small)
-                            .symbolRenderingMode(.monochrome)
-                            .foregroundStyle(.blue)
-                            .font(.system(.footnote, weight: .semibold))
-                            .padding(6)
-                            .background {
-                                Circle()
-                                    .foregroundStyle(Color(.systemFill))
-                            }
+                        
                             .padding(.top, 7)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -100,6 +86,29 @@ struct Lenker: View {
                     .frame(height: 50)
                     .clipped()
             }
+        }
+        .actionSheet(isPresented: $showActionSheet) {
+            ActionSheet(
+                title: Text("Listen on"),
+                message: Text("Choose a platform"),
+                buttons: [
+                    .default(Text("Apple Music")) {
+                        openURL("https://music.apple.com/us/album/songs/1526437437")
+                    },
+                    .default(Text("Spotify")) {
+                        openURL("https://open.spotify.com/album/2Qt8Z1LB3Fsrf6nhBNsvUJ?si=BkPmyyTARHe167lc443eJw")
+                    },
+                    .default(Text("YouTube")) {
+                        openURL("https://music.youtube.com/playlist?list=OLAK5uy_lGmPAwykSo9CVkw9CHz18OjmY6pMfAcqc&si=rSYJetfVp2OUtYec")
+                    },
+                    .cancel()
+                ]
+            )
+        }
+    }
+    private func openURL(_ urlString: String) {
+        if let url = URL(string: urlString) {
+            UIApplication.shared.open(url)
         }
     }
 }

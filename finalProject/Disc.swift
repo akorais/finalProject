@@ -138,7 +138,7 @@ struct Disc: View {
                             .frame(width: 250)
                             .clipped()
                             
-                            NavigationLink(destination: Lenker()) {
+                            NavigationLink(destination: DeanBlunt()) {
                                 VStack(alignment: .leading) {
                                     Image("deanblunt")
                                         .renderingMode(.original)
