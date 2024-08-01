@@ -16,18 +16,18 @@ struct AggressiveMetal: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Raining Blood- Slayer")
+                Text("Paranoid- Black Sabbath")
+                Text("Master of Puppets- Metallica")
+                Text("The Trooper- Iron Maiden")
+                Text("Duality- Slipknot")
+                Text("Du hast- Rammstein")
+                Text("Rainbow in the Dark- Dio")
+                Text("Tears Don't Fall- Bullet for my Valentine")
+                Text("Madhouse- Anthrax")
+                Text("Raise Your Hands- Amon Amarth")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DWWOaP4H0w5b0?si=a2dbac73983b4705")!)
             }
             }
     }
