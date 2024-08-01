@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
-
 struct HappyEnergized: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Just one more question!")
+                NavigationLink(destination: EnergizedPop()) {
+                    Text("Pop")
+                    Text("OR")
+                        .foregroundColor(Color.black)
+                    NavigationLink(destination: EnergizedRap()) {
+                        Text("Rap")
+                    }
+                }
+            }
+        }
     }
 }
-
 #Preview {
     HappyEnergized()
 }

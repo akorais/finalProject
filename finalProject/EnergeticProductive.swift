@@ -6,13 +6,24 @@
 //
 
 import SwiftUI
-
 struct EnergeticProductive: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Just one more question!")
+                NavigationLink(destination: ProductiveStudying()) {
+                    Text("Studying/Working")
+                    Text("OR")
+                        .foregroundColor(Color.black)
+                    NavigationLink(destination: ProductiveExercising()) {
+                        Text("Exercising")
+                    }
+                }
+            }
+        }
     }
 }
-
 #Preview {
     EnergeticProductive()
 }
+

@@ -6,13 +6,21 @@
 //
 
 import SwiftUI
-
 struct HappyRelaxed: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Just one more question!")
+            NavigationLink(destination: RelaxedInstrumental()) {
+                Text("Instrumental")
+                Text("OR")
+                    .foregroundColor(Color.black)
+                NavigationLink(destination: RelaxedSinging()) {
+                    Text("Singing")
+                }
+            }
+        }
     }
-}
-
+    }
 #Preview {
     HappyRelaxed()
 }

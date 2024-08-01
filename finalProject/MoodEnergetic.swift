@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
-
 struct MoodEnergetic: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Let's get more specific!")
+                NavigationLink(destination: EnergeticProductive()) {
+                    Text("Productive")
+                    Text("OR")
+                        .foregroundColor(Color.black)
+                NavigationLink(destination: EnergeticPlayful()) {
+                    Text("Playful")
+                    }
+                }
+            }
+        }
     }
 }
-
 #Preview {
     MoodEnergetic()
 }

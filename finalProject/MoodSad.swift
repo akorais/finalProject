@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
-
 struct MoodSad: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Let's get more specific!")
+                NavigationLink(destination: SadDepressed()) {
+                    Text("Depressed")
+                    Text("OR")
+                        .foregroundColor(Color.black)
+                NavigationLink(destination: SadReflective()) {
+                    Text("Reflective")
+                    }
+                }
+            }
+        }
     }
 }
-
 #Preview {
     MoodSad()
 }

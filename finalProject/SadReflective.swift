@@ -6,13 +6,23 @@
 //
 
 import SwiftUI
-
 struct SadReflective: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Just one more question!")
+                NavigationLink(destination: ReflectiveIndie()) {
+                    Text("Indie/Alt")
+                    Text("OR")
+                        .foregroundColor(Color.black)
+                    NavigationLink(destination: ReflectiveClassical()) {
+                        Text("Classical")
+                    }
+                }
+            }
+        }
     }
 }
-
 #Preview {
     SadReflective()
 }

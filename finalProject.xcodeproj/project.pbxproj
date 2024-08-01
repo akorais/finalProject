@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46F432B52C5AB77E00C58890 /* QuizMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432B42C5AB77D00C58890 /* QuizMainPage.swift */; };
+		46F432B72C5AB7AB00C58890 /* UserMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432B62C5AB7AB00C58890 /* UserMood.swift */; };
+		46F432B92C5AB7F100C58890 /* MoodHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432B82C5AB7F100C58890 /* MoodHappy.swift */; };
+		46F432BB2C5AB81300C58890 /* HappyEnergized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432BA2C5AB81300C58890 /* HappyEnergized.swift */; };
+		46F432BD2C5AB84800C58890 /* EnergizedPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432BC2C5AB84800C58890 /* EnergizedPop.swift */; };
+		46F432BF2C5AB87B00C58890 /* EnergizedRap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432BE2C5AB87B00C58890 /* EnergizedRap.swift */; };
+		46F432C12C5AB8A700C58890 /* HappyRelaxed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432C02C5AB8A700C58890 /* HappyRelaxed.swift */; };
+		46F432C32C5AB8CA00C58890 /* RelaxedInstrumental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432C22C5AB8CA00C58890 /* RelaxedInstrumental.swift */; };
+		46F432C52C5AB8EE00C58890 /* RelaxedSinging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432C42C5AB8EE00C58890 /* RelaxedSinging.swift */; };
+		46F432C72C5AB90F00C58890 /* MoodSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432C62C5AB90F00C58890 /* MoodSad.swift */; };
+		46F432C92C5AB92F00C58890 /* SadDepressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432C82C5AB92F00C58890 /* SadDepressed.swift */; };
+		46F432CB2C5AB95600C58890 /* DepressedSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432CA2C5AB95600C58890 /* DepressedSoft.swift */; };
+		46F432CD2C5AB97300C58890 /* DepressedHeavy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432CC2C5AB97300C58890 /* DepressedHeavy.swift */; };
+		46F432CF2C5AB9B000C58890 /* SadReflective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432CE2C5AB9B000C58890 /* SadReflective.swift */; };
+		46F432D12C5AB9EB00C58890 /* ReflectiveIndie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432D02C5AB9EB00C58890 /* ReflectiveIndie.swift */; };
+		46F432D32C5ABA1700C58890 /* ReflectiveClassical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432D22C5ABA1700C58890 /* ReflectiveClassical.swift */; };
+		46F432D52C5ABA4700C58890 /* MoodAngry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432D42C5ABA4700C58890 /* MoodAngry.swift */; };
+		46F432D72C5ABA6800C58890 /* AngryIntense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432D62C5ABA6800C58890 /* AngryIntense.swift */; };
+		46F432D92C5ABA8600C58890 /* IntenseMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432D82C5ABA8500C58890 /* IntenseMetal.swift */; };
+		46F432DB2C5ABAAF00C58890 /* IntensePunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432DA2C5ABAAF00C58890 /* IntensePunk.swift */; };
+		46F432DD2C5ABB5600C58890 /* AngryAggressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432DC2C5ABB5600C58890 /* AngryAggressive.swift */; };
+		46F432DF2C5ABB7400C58890 /* AggressiveRap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432DE2C5ABB7400C58890 /* AggressiveRap.swift */; };
+		46F432E12C5ABB9900C58890 /* AggressiveMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432E02C5ABB9900C58890 /* AggressiveMetal.swift */; };
+		46F432E32C5ABBD800C58890 /* MoodEnergetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432E22C5ABBD800C58890 /* MoodEnergetic.swift */; };
+		46F432E52C5ABBF700C58890 /* EnergeticProductive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432E42C5ABBF700C58890 /* EnergeticProductive.swift */; };
+		46F432E72C5ABC1E00C58890 /* ProductiveStudying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432E62C5ABC1E00C58890 /* ProductiveStudying.swift */; };
+		46F432E92C5ABC4400C58890 /* ProductiveExercising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432E82C5ABC4400C58890 /* ProductiveExercising.swift */; };
+		46F432EB2C5ABC6E00C58890 /* EnergeticPlayful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432EA2C5ABC6E00C58890 /* EnergeticPlayful.swift */; };
+		46F432ED2C5ABC8D00C58890 /* PlayfulSocializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432EC2C5ABC8D00C58890 /* PlayfulSocializing.swift */; };
+		46F432EF2C5ABCB200C58890 /* PlayfulTraveling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432EE2C5ABCB200C58890 /* PlayfulTraveling.swift */; };
 		A6489AC92C54138800A463B2 /* finalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489AC82C54138800A463B2 /* finalProjectApp.swift */; };
 		A6489ACB2C54138800A463B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489ACA2C54138800A463B2 /* ContentView.swift */; };
 		A6489ACD2C54138900A463B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6489ACC2C54138900A463B2 /* Assets.xcassets */; };
@@ -14,6 +44,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46F432B42C5AB77D00C58890 /* QuizMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMainPage.swift; sourceTree = "<group>"; };
+		46F432B62C5AB7AB00C58890 /* UserMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMood.swift; sourceTree = "<group>"; };
+		46F432B82C5AB7F100C58890 /* MoodHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodHappy.swift; sourceTree = "<group>"; };
+		46F432BA2C5AB81300C58890 /* HappyEnergized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyEnergized.swift; sourceTree = "<group>"; };
+		46F432BC2C5AB84800C58890 /* EnergizedPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergizedPop.swift; sourceTree = "<group>"; };
+		46F432BE2C5AB87B00C58890 /* EnergizedRap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergizedRap.swift; sourceTree = "<group>"; };
+		46F432C02C5AB8A700C58890 /* HappyRelaxed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyRelaxed.swift; sourceTree = "<group>"; };
+		46F432C22C5AB8CA00C58890 /* RelaxedInstrumental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxedInstrumental.swift; sourceTree = "<group>"; };
+		46F432C42C5AB8EE00C58890 /* RelaxedSinging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxedSinging.swift; sourceTree = "<group>"; };
+		46F432C62C5AB90F00C58890 /* MoodSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSad.swift; sourceTree = "<group>"; };
+		46F432C82C5AB92F00C58890 /* SadDepressed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadDepressed.swift; sourceTree = "<group>"; };
+		46F432CA2C5AB95600C58890 /* DepressedSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressedSoft.swift; sourceTree = "<group>"; };
+		46F432CC2C5AB97300C58890 /* DepressedHeavy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressedHeavy.swift; sourceTree = "<group>"; };
+		46F432CE2C5AB9B000C58890 /* SadReflective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadReflective.swift; sourceTree = "<group>"; };
+		46F432D02C5AB9EB00C58890 /* ReflectiveIndie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectiveIndie.swift; sourceTree = "<group>"; };
+		46F432D22C5ABA1700C58890 /* ReflectiveClassical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectiveClassical.swift; sourceTree = "<group>"; };
+		46F432D42C5ABA4700C58890 /* MoodAngry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodAngry.swift; sourceTree = "<group>"; };
+		46F432D62C5ABA6800C58890 /* AngryIntense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryIntense.swift; sourceTree = "<group>"; };
+		46F432D82C5ABA8500C58890 /* IntenseMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntenseMetal.swift; sourceTree = "<group>"; };
+		46F432DA2C5ABAAF00C58890 /* IntensePunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntensePunk.swift; sourceTree = "<group>"; };
+		46F432DC2C5ABB5600C58890 /* AngryAggressive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryAggressive.swift; sourceTree = "<group>"; };
+		46F432DE2C5ABB7400C58890 /* AggressiveRap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggressiveRap.swift; sourceTree = "<group>"; };
+		46F432E02C5ABB9900C58890 /* AggressiveMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggressiveMetal.swift; sourceTree = "<group>"; };
+		46F432E22C5ABBD800C58890 /* MoodEnergetic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEnergetic.swift; sourceTree = "<group>"; };
+		46F432E42C5ABBF700C58890 /* EnergeticProductive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticProductive.swift; sourceTree = "<group>"; };
+		46F432E62C5ABC1E00C58890 /* ProductiveStudying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductiveStudying.swift; sourceTree = "<group>"; };
+		46F432E82C5ABC4400C58890 /* ProductiveExercising.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductiveExercising.swift; sourceTree = "<group>"; };
+		46F432EA2C5ABC6E00C58890 /* EnergeticPlayful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticPlayful.swift; sourceTree = "<group>"; };
+		46F432EC2C5ABC8D00C58890 /* PlayfulSocializing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayfulSocializing.swift; sourceTree = "<group>"; };
+		46F432EE2C5ABCB200C58890 /* PlayfulTraveling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayfulTraveling.swift; sourceTree = "<group>"; };
 		A6489AC52C54138800A463B2 /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6489AC82C54138800A463B2 /* finalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectApp.swift; sourceTree = "<group>"; };
 		A6489ACA2C54138800A463B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +113,36 @@
 			children = (
 				A6489AC82C54138800A463B2 /* finalProjectApp.swift */,
 				A6489ACA2C54138800A463B2 /* ContentView.swift */,
+				46F432B42C5AB77D00C58890 /* QuizMainPage.swift */,
+				46F432B62C5AB7AB00C58890 /* UserMood.swift */,
+				46F432B82C5AB7F100C58890 /* MoodHappy.swift */,
+				46F432BA2C5AB81300C58890 /* HappyEnergized.swift */,
+				46F432BC2C5AB84800C58890 /* EnergizedPop.swift */,
+				46F432BE2C5AB87B00C58890 /* EnergizedRap.swift */,
+				46F432C02C5AB8A700C58890 /* HappyRelaxed.swift */,
+				46F432C22C5AB8CA00C58890 /* RelaxedInstrumental.swift */,
+				46F432C42C5AB8EE00C58890 /* RelaxedSinging.swift */,
+				46F432C62C5AB90F00C58890 /* MoodSad.swift */,
+				46F432C82C5AB92F00C58890 /* SadDepressed.swift */,
+				46F432CA2C5AB95600C58890 /* DepressedSoft.swift */,
+				46F432CC2C5AB97300C58890 /* DepressedHeavy.swift */,
+				46F432CE2C5AB9B000C58890 /* SadReflective.swift */,
+				46F432D02C5AB9EB00C58890 /* ReflectiveIndie.swift */,
+				46F432D22C5ABA1700C58890 /* ReflectiveClassical.swift */,
+				46F432D42C5ABA4700C58890 /* MoodAngry.swift */,
+				46F432D62C5ABA6800C58890 /* AngryIntense.swift */,
+				46F432D82C5ABA8500C58890 /* IntenseMetal.swift */,
+				46F432DA2C5ABAAF00C58890 /* IntensePunk.swift */,
+				46F432DC2C5ABB5600C58890 /* AngryAggressive.swift */,
+				46F432DE2C5ABB7400C58890 /* AggressiveRap.swift */,
+				46F432E02C5ABB9900C58890 /* AggressiveMetal.swift */,
+				46F432E22C5ABBD800C58890 /* MoodEnergetic.swift */,
+				46F432E42C5ABBF700C58890 /* EnergeticProductive.swift */,
+				46F432E62C5ABC1E00C58890 /* ProductiveStudying.swift */,
+				46F432E82C5ABC4400C58890 /* ProductiveExercising.swift */,
+				46F432EA2C5ABC6E00C58890 /* EnergeticPlayful.swift */,
+				46F432EC2C5ABC8D00C58890 /* PlayfulSocializing.swift */,
+				46F432EE2C5ABCB200C58890 /* PlayfulTraveling.swift */,
 				A6489ACC2C54138900A463B2 /* Assets.xcassets */,
 				A6489ACE2C54138900A463B2 /* Preview Content */,
 			);
@@ -137,8 +227,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F432EB2C5ABC6E00C58890 /* EnergeticPlayful.swift in Sources */,
+				46F432D12C5AB9EB00C58890 /* ReflectiveIndie.swift in Sources */,
+				46F432E32C5ABBD800C58890 /* MoodEnergetic.swift in Sources */,
+				46F432B52C5AB77E00C58890 /* QuizMainPage.swift in Sources */,
+				46F432DB2C5ABAAF00C58890 /* IntensePunk.swift in Sources */,
+				46F432E12C5ABB9900C58890 /* AggressiveMetal.swift in Sources */,
 				A6489ACB2C54138800A463B2 /* ContentView.swift in Sources */,
+				46F432D52C5ABA4700C58890 /* MoodAngry.swift in Sources */,
+				46F432D92C5ABA8600C58890 /* IntenseMetal.swift in Sources */,
+				46F432BB2C5AB81300C58890 /* HappyEnergized.swift in Sources */,
+				46F432DD2C5ABB5600C58890 /* AngryAggressive.swift in Sources */,
 				A6489AC92C54138800A463B2 /* finalProjectApp.swift in Sources */,
+				46F432C52C5AB8EE00C58890 /* RelaxedSinging.swift in Sources */,
+				46F432D32C5ABA1700C58890 /* ReflectiveClassical.swift in Sources */,
+				46F432E92C5ABC4400C58890 /* ProductiveExercising.swift in Sources */,
+				46F432C12C5AB8A700C58890 /* HappyRelaxed.swift in Sources */,
+				46F432CD2C5AB97300C58890 /* DepressedHeavy.swift in Sources */,
+				46F432C32C5AB8CA00C58890 /* RelaxedInstrumental.swift in Sources */,
+				46F432C72C5AB90F00C58890 /* MoodSad.swift in Sources */,
+				46F432D72C5ABA6800C58890 /* AngryIntense.swift in Sources */,
+				46F432BD2C5AB84800C58890 /* EnergizedPop.swift in Sources */,
+				46F432E72C5ABC1E00C58890 /* ProductiveStudying.swift in Sources */,
+				46F432DF2C5ABB7400C58890 /* AggressiveRap.swift in Sources */,
+				46F432CB2C5AB95600C58890 /* DepressedSoft.swift in Sources */,
+				46F432BF2C5AB87B00C58890 /* EnergizedRap.swift in Sources */,
+				46F432ED2C5ABC8D00C58890 /* PlayfulSocializing.swift in Sources */,
+				46F432EF2C5ABCB200C58890 /* PlayfulTraveling.swift in Sources */,
+				46F432B92C5AB7F100C58890 /* MoodHappy.swift in Sources */,
+				46F432B72C5AB7AB00C58890 /* UserMood.swift in Sources */,
+				46F432C92C5AB92F00C58890 /* SadDepressed.swift in Sources */,
+				46F432E52C5ABBF700C58890 /* EnergeticProductive.swift in Sources */,
+				46F432CF2C5AB9B000C58890 /* SadReflective.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

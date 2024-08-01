@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
-
 struct QuizMainPage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        NavigationStack {
+            VStack {
+                Text("Welcome to the quiz!")
+                NavigationLink(destination: UserMood()) {
+                    Text("Click here to begin!")
+                }
+            }
+        }
     }
 }
-
 #Preview {
     QuizMainPage()
 }

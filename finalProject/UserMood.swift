@@ -6,13 +6,31 @@
 //
 
 import SwiftUI
-
 struct UserMood: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
+        NavigationStack {
+            VStack {
+                Text("What is your current mood?")
+                VStack {
+                    NavigationLink(destination: MoodHappy()) {
+                        Text("Happy")
+                    NavigationLink(destination: MoodSad()) {
+                        Text("Sad")
+                    NavigationLink(destination: MoodAngry()) {
+                        Text("Angry")
+                    NavigationLink(destination: MoodEnergetic()) {
+                        Text("Energetic")
+                        }
+                        }
+                        }
+                    }
+                }
+                    }
+                    
+                }
+            }
+        }
+    
 #Preview {
     UserMood()
 }
