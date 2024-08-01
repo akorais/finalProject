@@ -16,18 +16,18 @@ struct ProductiveStudying: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Augury- Lynx XII")
+                Text("Orange Sky- Auoura")
+                Text("the echoing truth- Tall Towers")
+                Text("Tell A Story- BBG's")
+                Text("Photographic- Skeru")
+                Text("Oscillation- Mimber")
+                Text("Extension- Oblivion")
+                Text("Long Distances- Barkerby")
+                Text("Lunar Rainbow- Louamine")
+                Text("Another Day- Francis Flo")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ?si=94f768df12d84b53")!)
             }
             }
     }
