@@ -16,18 +16,18 @@ struct PlayfulTraveling: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
+                Text("Feather- Sabrina Carpenter")
+                Text("Kill Bill- SZA")
+                Text("greedy- Tate McRae")
                 Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Obsessed- Mariah Carey")
+                Text("Linger- The Cranberries")
+                Text("Hide Away- Daya")
+                Text("Into You- Ariana Grande")
+                Text("Only Girl(In The World)- Rihanna")
+                Text("Cool for the Summer- Demi Lovato")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DWWMOmoXKqHTD?si=acd7f264dba14277")!)
             }
             }
     }
