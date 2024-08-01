@@ -21,13 +21,13 @@ struct EnergizedRap: View {
                 Text("OKAY- JT")
                 Text("KEHLANI- Jordan Adeetunji")
                 Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Not Like Us- Kendrick Lamar")
+                Text("Yeah Glo!- Glorilla")
+                Text("BAND4BAND- Central Cee, Lil Baby")
+                Text("Never Lose Me- Flo Milli")
+                Text("Like What- Cardi B")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=706fac1784ff4d6e")!)
             }
             }
     }
