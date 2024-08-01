@@ -16,18 +16,18 @@ struct RelaxedInstrumental: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Halo- Mia Carrera")
+                Text("Viva La Vida- Chris Island")
+                Text("Rocket Man- Fiona Greenly")
+                Text("Fix You- Lars Florence")
+                Text("The Scientist- Kit Sutton")
+                Text("Let It Be- Laszlo Teofil")
+                Text("How to Save a Life- Northern Dreams")
+                Text("The Joke- Zola Davis")
+                Text("Piano Man- Alec Taylor")
+                Text("Rather Be- Marc Millis")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX9j444F9NCBa?si=49c93a12779d4f39")!)
             }
             }
     }
