@@ -16,18 +16,18 @@ struct ReflectiveIndie: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Wasted Summers- juju<3")
+                Text("Not Strong Enough- boygenius")
+                Text("Someday- The Strokes")
+                Text("BIRDS OF A FEATHER- Billie Eilish")
+                Text("End of Beginning- Djo")
+                Text("Good Luck, Babe!- Chappell Roan")
+                Text("Ribs- Lorde")
+                Text("Close To You- Gracie Abrams")
+                Text("Lovers Rock- TV Girl")
+                Text("Champagne Coast- Blood Orange")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DWVsh2vXzlKFb?si=dc0717aa544942ab")!)
             }
             }
     }
