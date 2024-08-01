@@ -25,7 +25,17 @@ struct ContentView: View {
                 .padding(.top, 98)
                 .padding(.bottom, 150)
             }
+            .frame(maxWidth: .infinity)
             
+            .overlay(alignment: .center) {
+                Image("robot")
+                    .renderingMode(.original)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding(60)
+                    .offset(x: 0, y: 25)
+            }
+        
             .overlay(alignment: .bottom) {
                 // Tab Bar
                 VStack(spacing: 4) {

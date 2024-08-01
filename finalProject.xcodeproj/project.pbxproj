@@ -40,6 +40,9 @@
 		6E35A6182C5C1C9000D7BF6F /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A6172C5C1C9000D7BF6F /* song.swift */; };
 		6E35A61A2C5C1CBD00D7BF6F /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A6192C5C1CBD00D7BF6F /* SwipeCardView.swift */; };
 		6E35A61C2C5C1D3100D7BF6F /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A61B2C5C1D3100D7BF6F /* SwipeView.swift */; };
+		6E35A61E2C5C204100D7BF6F /* Mkgee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A61D2C5C204100D7BF6F /* Mkgee.swift */; };
+		6E35A6202C5C224700D7BF6F /* DeanBlunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A61F2C5C224700D7BF6F /* DeanBlunt.swift */; };
+		6E35A6242C5C22F000D7BF6F /* Lenker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A6232C5C22EF00D7BF6F /* Lenker.swift */; };
 		6E665C9F2C5BDC6B008928C8 /* Disc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E665C9E2C5BDC6B008928C8 /* Disc.swift */; };
 		6E665CDB2C5BFF6C008928C8 /* SabrinaCarpenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E665CDA2C5BFF6C008928C8 /* SabrinaCarpenter.swift */; };
 		6E665CDD2C5C02E8008928C8 /* TateMcrae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E665CDC2C5C02E8008928C8 /* TateMcrae.swift */; };
@@ -84,6 +87,9 @@
 		6E35A6172C5C1C9000D7BF6F /* song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
 		6E35A6192C5C1CBD00D7BF6F /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
 		6E35A61B2C5C1D3100D7BF6F /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		6E35A61D2C5C204100D7BF6F /* Mkgee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mkgee.swift; sourceTree = "<group>"; };
+		6E35A61F2C5C224700D7BF6F /* DeanBlunt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeanBlunt.swift; sourceTree = "<group>"; };
+		6E35A6232C5C22EF00D7BF6F /* Lenker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lenker.swift; sourceTree = "<group>"; };
 		6E665C9E2C5BDC6B008928C8 /* Disc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc.swift; sourceTree = "<group>"; };
 		6E665CDA2C5BFF6C008928C8 /* SabrinaCarpenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabrinaCarpenter.swift; sourceTree = "<group>"; };
 		6E665CDC2C5C02E8008928C8 /* TateMcrae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TateMcrae.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 			children = (
 				A6489AC82C54138800A463B2 /* finalProjectApp.swift */,
 				A6489ACA2C54138800A463B2 /* ContentView.swift */,
+				6E35A61D2C5C204100D7BF6F /* Mkgee.swift */,
+				6E35A61F2C5C224700D7BF6F /* DeanBlunt.swift */,
+				6E35A6232C5C22EF00D7BF6F /* Lenker.swift */,
 				6E35A6172C5C1C9000D7BF6F /* song.swift */,
 				6E35A6192C5C1CBD00D7BF6F /* SwipeCardView.swift */,
 				6E35A61B2C5C1D3100D7BF6F /* SwipeView.swift */,
@@ -268,6 +277,7 @@
 				6E665CDD2C5C02E8008928C8 /* TateMcrae.swift in Sources */,
 				46F432C12C5AB8A700C58890 /* HappyRelaxed.swift in Sources */,
 				46F432CD2C5AB97300C58890 /* DepressedHeavy.swift in Sources */,
+				6E35A6202C5C224700D7BF6F /* DeanBlunt.swift in Sources */,
 				46F432C32C5AB8CA00C58890 /* RelaxedInstrumental.swift in Sources */,
 				6E665CDB2C5BFF6C008928C8 /* SabrinaCarpenter.swift in Sources */,
 				46F432C72C5AB90F00C58890 /* MoodSad.swift in Sources */,
@@ -275,10 +285,12 @@
 				46F432BD2C5AB84800C58890 /* EnergizedPop.swift in Sources */,
 				46F432E72C5ABC1E00C58890 /* ProductiveStudying.swift in Sources */,
 				46F432DF2C5ABB7400C58890 /* AggressiveRap.swift in Sources */,
+				6E35A6242C5C22F000D7BF6F /* Lenker.swift in Sources */,
 				46F432CB2C5AB95600C58890 /* DepressedSoft.swift in Sources */,
 				46F432BF2C5AB87B00C58890 /* EnergizedRap.swift in Sources */,
 				46F432ED2C5ABC8D00C58890 /* PlayfulSocializing.swift in Sources */,
 				6E35A61A2C5C1CBD00D7BF6F /* SwipeCardView.swift in Sources */,
+				6E35A61E2C5C204100D7BF6F /* Mkgee.swift in Sources */,
 				46F432EF2C5ABCB200C58890 /* PlayfulTraveling.swift in Sources */,
 				46F432B92C5AB7F100C58890 /* MoodHappy.swift in Sources */,
 				46F432B72C5AB7AB00C58890 /* UserMood.swift in Sources */,

@@ -9,7 +9,17 @@ struct QuizMainPage: View {
     var body: some View {
         
         NavigationStack {
+            
             VStack {
+                
+                    Image("robot2")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding(60)
+                        .offset(x: 0, y: 25)
+                
+                
                 Text("Welcome to the quiz!")
                 NavigationLink(destination: UserMood()) {
                     Text("Click here to begin!")

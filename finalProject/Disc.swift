@@ -47,7 +47,7 @@ struct Disc: View {
                                 //break
                             NavigationLink(destination: TateMcrae()) {
                                 VStack(alignment: .leading) {
-                                    Image("Tate_Mcrae")
+                                    Image("TateMcrae")
                                         .renderingMode(.original)
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
@@ -100,6 +100,7 @@ struct Disc: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                           
+                            NavigationLink(destination: Mkgee()) {
                                 VStack(alignment: .leading) {
                                     Image("mkgee")
                                         .renderingMode(.original)
@@ -112,41 +113,46 @@ struct Disc: View {
                                     Text("Mk.gee")
                                         .font(.system(.headline, weight: .medium))
                                         .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
-
+                                    
                                 }
+                            }
                                 .frame(width: 250)
                                 .clipped()
                             //break
-                            VStack(alignment: .leading) {
-                                Image("lenker")
-                                    .renderingMode(.original)
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: 250, height: 141)
-                                    .clipped()
-                                    .mask { RoundedRectangle(cornerRadius: 10, style: .continuous) }
-                                    .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 3)
-                                Text("Adrienne Lenker")
-                                    .font(.system(.headline, weight: .medium))
-                                    .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
-
+                            NavigationLink(destination: Lenker()) {
+                                VStack(alignment: .leading) {
+                                    Image("lenker")
+                                        .renderingMode(.original)
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width: 250, height: 141)
+                                        .clipped()
+                                        .mask { RoundedRectangle(cornerRadius: 10, style: .continuous) }
+                                        .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 3)
+                                    Text("Adrienne Lenker")
+                                        .font(.system(.headline, weight: .medium))
+                                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
+                                    
+                                }
                             }
                             .frame(width: 250)
                             .clipped()
                             
-                            VStack(alignment: .leading) {
-                                Image("deanblunt")
-                                    .renderingMode(.original)
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: 250, height: 141)
-                                    .clipped()
-                                    .mask { RoundedRectangle(cornerRadius: 10, style: .continuous) }
-                                    .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 3)
-                                Text("Dean Blunt")
-                                    .font(.system(.headline, weight: .medium))
-                                    .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
-
+                            NavigationLink(destination: Lenker()) {
+                                VStack(alignment: .leading) {
+                                    Image("deanblunt")
+                                        .renderingMode(.original)
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width: 250, height: 141)
+                                        .clipped()
+                                        .mask { RoundedRectangle(cornerRadius: 10, style: .continuous) }
+                                        .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 3)
+                                    Text("Dean Blunt")
+                                        .font(.system(.headline, weight: .medium))
+                                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
+                                    
+                                }
                             }
                             .frame(width: 250)
                             .clipped()

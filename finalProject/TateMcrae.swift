@@ -10,17 +10,17 @@ struct TateMcrae: View {
     var body: some View {
         
         ZStack {
-            Color(.systemBlue)
+            Color(.white)
                 .ignoresSafeArea()
             
             VStack (alignment: .leading, spacing: 20.0){
-                Image("Tate_Mcrae")
+                Image("TateMcrae")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .cornerRadius(15)
                 
             HStack {
-               Text("   Tate Mcrae")
+               Text("Tate Mcrae")
                     .fontWeight(.bold)
                 Text("New Upcoming Artist!!")
                 
