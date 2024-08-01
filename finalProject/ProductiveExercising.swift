@@ -16,18 +16,18 @@ struct ProductiveExercising: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
+                Text("HOT TO GO!- Chappell Roan")
+                Text("exes- Tate McRae")
+                Text("Rush- Troy Sivan")
+                Text("360- Charli xcx")
+                Text("Beauty And A Beat- Justic Bieber, Nicki Minaj")
+                Text("Don't Stop The Music- Rihanna")
                 Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Timber- Pitbull, Kesha")
+                Text("Baby Don't Hurt Me- David Guetta, Anne-Marie, Coi Leray ")
+                Text("Bang Bang- Jessie J, Ariana Grande, Nicki Minaj")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX5gQonLbZD9s?si=f0f5b029eae14e73")!)
             }
             }
     }
