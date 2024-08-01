@@ -16,20 +16,21 @@ struct RelaxedSinging: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Lovely Day- Bill Withers")
+                Text("Be My Baby- The Ronettes")
+                Text("Happy Together- The Turtles")
+                Text("Uptown Girl- Billy Joel")
+                Text("American Pie- Don McLean")
+                Text("Everywhere- Fleetwood Mac")
+                Text("My Girl- The Temptations")
+                Text("Tiny Dancer- Elton John")
+                Text("Here Comes The Sun- The Beatles")
+                Text("Our Last Summer- ABBA")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX9fZ7amiNVu6?si=67c4f30cc17341d4")!)
+                    .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
             }
-            }
+        }
     }
 }
 #Preview {

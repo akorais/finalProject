@@ -28,9 +28,10 @@ struct EnergizedPop: View {
                 Text("Jump- Tyla")
                 
                 Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX45grRWk2ghU?si=389ab12bdfaf4887")!)
+                    .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
             }
-            }
-            }
+        }
+    }
                 
         }
     

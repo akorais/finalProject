@@ -13,10 +13,12 @@ struct SadDepressed: View {
                 Text("Just one more question!")
                 NavigationLink(destination: DepressedSoft()) {
                     Text("Soft & Reflective")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     Text("OR")
                         .foregroundColor(Color.black)
                     NavigationLink(destination: DepressedHeavy()) {
                         Text("Heavy & Intense")
+                            .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     }
                 }
             }

@@ -13,10 +13,12 @@ struct AngryAggressive: View {
                 Text("Just one more question!")
                 NavigationLink(destination: AggressiveRap()) {
                     Text("Rap")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     Text("OR")
                         .foregroundColor(Color.black)
                     NavigationLink(destination: AggressiveMetal()) {
                         Text("Metal")
+                            .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     }
                 }
             }

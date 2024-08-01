@@ -16,20 +16,21 @@ struct IntenseMetal: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Crown of Horns- Judas Priest")
+                Text("Dogs of War- Motley Crue")
+                Text("Sinners of the Seven Seas- Powerwolf")
+                Text("Screaming Suicide- Metallica")
+                Text("Meet Your Maker- In Flames")
+                Text("While We Serve- Orbit Culture")
+                Text("Custer- Slipknot")
+                Text("Chop Suey!- System Of A Down")
+                Text("Seeing Red- Architects")
+                Text("Parasite Eve- Bring Me The Horizon")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX9qNs32fujYe?si=840050e0ecc940fc")!)
+                    .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
             }
-            }
+        }
     }
 }
 #Preview {

@@ -13,10 +13,12 @@ struct EnergeticPlayful: View {
                 Text("Just one more question!")
                 NavigationLink(destination: PlayfulSocializing()) {
                     Text("Socializing")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     Text("OR")
                         .foregroundColor(Color.black)
                     NavigationLink(destination: PlayfulTraveling()) {
                         Text("Traveling")
+                            .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     }
                 }
             }

@@ -13,10 +13,12 @@ struct EnergeticProductive: View {
                 Text("Just one more question!")
                 NavigationLink(destination: ProductiveStudying()) {
                     Text("Studying/Working")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     Text("OR")
                         .foregroundColor(Color.black)
                     NavigationLink(destination: ProductiveExercising()) {
                         Text("Exercising")
+                            .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     }
                 }
             }

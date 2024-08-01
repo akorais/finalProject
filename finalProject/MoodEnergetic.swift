@@ -13,10 +13,12 @@ struct MoodEnergetic: View {
                 Text("Let's get more specific!")
                 NavigationLink(destination: EnergeticProductive()) {
                     Text("Productive")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     Text("OR")
                         .foregroundColor(Color.black)
                 NavigationLink(destination: EnergeticPlayful()) {
                     Text("Playful")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     }
                 }
             }

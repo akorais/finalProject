@@ -13,10 +13,13 @@ struct MoodHappy: View {
                 Text("Let's get more specific!")
                 NavigationLink(destination: HappyEnergized()) {
                     Text("Energized")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     Text("OR")
+                    
                         .foregroundColor(Color.black)
                 NavigationLink(destination: HappyRelaxed()) {
                     Text("Relaxed")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                     }
                 }
             }

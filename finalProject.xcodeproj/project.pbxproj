@@ -37,6 +37,13 @@
 		46F432EB2C5ABC6E00C58890 /* EnergeticPlayful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432EA2C5ABC6E00C58890 /* EnergeticPlayful.swift */; };
 		46F432ED2C5ABC8D00C58890 /* PlayfulSocializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432EC2C5ABC8D00C58890 /* PlayfulSocializing.swift */; };
 		46F432EF2C5ABCB200C58890 /* PlayfulTraveling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F432EE2C5ABCB200C58890 /* PlayfulTraveling.swift */; };
+		6E35A6182C5C1C9000D7BF6F /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A6172C5C1C9000D7BF6F /* song.swift */; };
+		6E35A61A2C5C1CBD00D7BF6F /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A6192C5C1CBD00D7BF6F /* SwipeCardView.swift */; };
+		6E35A61C2C5C1D3100D7BF6F /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E35A61B2C5C1D3100D7BF6F /* SwipeView.swift */; };
+		6E665C9F2C5BDC6B008928C8 /* Disc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E665C9E2C5BDC6B008928C8 /* Disc.swift */; };
+		6E665CDB2C5BFF6C008928C8 /* SabrinaCarpenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E665CDA2C5BFF6C008928C8 /* SabrinaCarpenter.swift */; };
+		6E665CDD2C5C02E8008928C8 /* TateMcrae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E665CDC2C5C02E8008928C8 /* TateMcrae.swift */; };
+		6E665CDF2C5C02F8008928C8 /* GracieAbrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E665CDE2C5C02F8008928C8 /* GracieAbrams.swift */; };
 		A6489AC92C54138800A463B2 /* finalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489AC82C54138800A463B2 /* finalProjectApp.swift */; };
 		A6489ACB2C54138800A463B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489ACA2C54138800A463B2 /* ContentView.swift */; };
 		A6489ACD2C54138900A463B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6489ACC2C54138900A463B2 /* Assets.xcassets */; };
@@ -74,6 +81,13 @@
 		46F432EA2C5ABC6E00C58890 /* EnergeticPlayful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergeticPlayful.swift; sourceTree = "<group>"; };
 		46F432EC2C5ABC8D00C58890 /* PlayfulSocializing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayfulSocializing.swift; sourceTree = "<group>"; };
 		46F432EE2C5ABCB200C58890 /* PlayfulTraveling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayfulTraveling.swift; sourceTree = "<group>"; };
+		6E35A6172C5C1C9000D7BF6F /* song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
+		6E35A6192C5C1CBD00D7BF6F /* SwipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		6E35A61B2C5C1D3100D7BF6F /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		6E665C9E2C5BDC6B008928C8 /* Disc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disc.swift; sourceTree = "<group>"; };
+		6E665CDA2C5BFF6C008928C8 /* SabrinaCarpenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SabrinaCarpenter.swift; sourceTree = "<group>"; };
+		6E665CDC2C5C02E8008928C8 /* TateMcrae.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TateMcrae.swift; sourceTree = "<group>"; };
+		6E665CDE2C5C02F8008928C8 /* GracieAbrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GracieAbrams.swift; sourceTree = "<group>"; };
 		A6489AC52C54138800A463B2 /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6489AC82C54138800A463B2 /* finalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectApp.swift; sourceTree = "<group>"; };
 		A6489ACA2C54138800A463B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +127,13 @@
 			children = (
 				A6489AC82C54138800A463B2 /* finalProjectApp.swift */,
 				A6489ACA2C54138800A463B2 /* ContentView.swift */,
+				6E35A6172C5C1C9000D7BF6F /* song.swift */,
+				6E35A6192C5C1CBD00D7BF6F /* SwipeCardView.swift */,
+				6E35A61B2C5C1D3100D7BF6F /* SwipeView.swift */,
+				6E665C9E2C5BDC6B008928C8 /* Disc.swift */,
+				6E665CDC2C5C02E8008928C8 /* TateMcrae.swift */,
+				6E665CDE2C5C02F8008928C8 /* GracieAbrams.swift */,
+				6E665CDA2C5BFF6C008928C8 /* SabrinaCarpenter.swift */,
 				46F432B42C5AB77D00C58890 /* QuizMainPage.swift */,
 				46F432B62C5AB7AB00C58890 /* UserMood.swift */,
 				46F432B82C5AB7F100C58890 /* MoodHappy.swift */,
@@ -240,11 +261,15 @@
 				46F432DD2C5ABB5600C58890 /* AngryAggressive.swift in Sources */,
 				A6489AC92C54138800A463B2 /* finalProjectApp.swift in Sources */,
 				46F432C52C5AB8EE00C58890 /* RelaxedSinging.swift in Sources */,
+				6E35A61C2C5C1D3100D7BF6F /* SwipeView.swift in Sources */,
 				46F432D32C5ABA1700C58890 /* ReflectiveClassical.swift in Sources */,
+				6E665C9F2C5BDC6B008928C8 /* Disc.swift in Sources */,
 				46F432E92C5ABC4400C58890 /* ProductiveExercising.swift in Sources */,
+				6E665CDD2C5C02E8008928C8 /* TateMcrae.swift in Sources */,
 				46F432C12C5AB8A700C58890 /* HappyRelaxed.swift in Sources */,
 				46F432CD2C5AB97300C58890 /* DepressedHeavy.swift in Sources */,
 				46F432C32C5AB8CA00C58890 /* RelaxedInstrumental.swift in Sources */,
+				6E665CDB2C5BFF6C008928C8 /* SabrinaCarpenter.swift in Sources */,
 				46F432C72C5AB90F00C58890 /* MoodSad.swift in Sources */,
 				46F432D72C5ABA6800C58890 /* AngryIntense.swift in Sources */,
 				46F432BD2C5AB84800C58890 /* EnergizedPop.swift in Sources */,
@@ -253,12 +278,15 @@
 				46F432CB2C5AB95600C58890 /* DepressedSoft.swift in Sources */,
 				46F432BF2C5AB87B00C58890 /* EnergizedRap.swift in Sources */,
 				46F432ED2C5ABC8D00C58890 /* PlayfulSocializing.swift in Sources */,
+				6E35A61A2C5C1CBD00D7BF6F /* SwipeCardView.swift in Sources */,
 				46F432EF2C5ABCB200C58890 /* PlayfulTraveling.swift in Sources */,
 				46F432B92C5AB7F100C58890 /* MoodHappy.swift in Sources */,
 				46F432B72C5AB7AB00C58890 /* UserMood.swift in Sources */,
 				46F432C92C5AB92F00C58890 /* SadDepressed.swift in Sources */,
 				46F432E52C5ABBF700C58890 /* EnergeticProductive.swift in Sources */,
+				6E665CDF2C5C02F8008928C8 /* GracieAbrams.swift in Sources */,
 				46F432CF2C5AB9B000C58890 /* SadReflective.swift in Sources */,
+				6E35A6182C5C1C9000D7BF6F /* song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"finalProject/Preview Content\"";
-				DEVELOPMENT_TEAM = THUY72KDMY;
+				DEVELOPMENT_TEAM = CZ737DF387;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -405,7 +433,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kwk.finalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwkd3.GettingStarted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"finalProject/Preview Content\"";
-				DEVELOPMENT_TEAM = THUY72KDMY;
+				DEVELOPMENT_TEAM = CZ737DF387;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kwk.finalProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kwkd3.GettingStarted;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

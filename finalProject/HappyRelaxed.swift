@@ -12,10 +12,12 @@ struct HappyRelaxed: View {
             Text("Just one more question!")
             NavigationLink(destination: RelaxedInstrumental()) {
                 Text("Instrumental")
+                    .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                 Text("OR")
                     .foregroundColor(Color.black)
                 NavigationLink(destination: RelaxedSinging()) {
                     Text("Singing")
+                        .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
                 }
             }
         }

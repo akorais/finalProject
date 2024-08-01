@@ -16,20 +16,21 @@ struct PlayfulSocializing: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
-                Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Espresso- Sabrina Carpenter")
+                Text("Too Sweet- Hozier")
+                Text("JOYRIDE- KEsha")
+                Text("BIRDS OF A FEATHER- Billie Eilish")
+                Text("Unwritten- Natasha Bedingfield")
+                Text("Feather- Sabrina Carpenter")
+                Text("Murder On The Dancefloor- Sophie Ellis-Bextor")
+                Text("Back On 74- Jungle")
+                Text("As It Was- Harry Styles")
+                Text("Heat Waves- Glass Animals")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "hhttps://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=8028d5c707db478e")!)
+                    .foregroundColor(Color(red: 184/255, green: 64/255, blue: 108/255))
             }
-            }
+        }
     }
 }
 #Preview {
