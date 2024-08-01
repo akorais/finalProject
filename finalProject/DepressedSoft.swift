@@ -16,18 +16,18 @@ struct DepressedSoft: View {
                 //Text("Click here for a playlist!")
             VStack {
                     
-                Text("NOSTYLIST- Destroy Lonely")
-                Text("Otaku Hot Girl- Megan Thee Stallion")
-                Text("OKAY- JT")
-                Text("KEHLANI- Jordan Adeetunji")
-                Text("Don Who Leo- Monaleo")
+                Text("The Night We Met- Strange Trails")
+                Text("Sidelines- Phoebe Bridgers")
+                Text("What Was I Made For?- Billie Eilish")
+                Text("Fourth of July- Sufjan Stevens")
+                Text("My Love Mine All Mine- Mitski")
                 Text("Got Me Started- Troye Sivan")
-                Text("Not My Fault- Renee Rapp, Megan Thee Stallion")
-                Text("yes, and?- Ariana Grande")
-                Text("Single Ladies(Put a Ring on It)- Beyonce")
-                Text("Jump- Tyla")
+                Text("Margaret- Lana Del Ray, Bleachers")
+                Text("Romantic Homicide- d4vd")
+                Text("I Know You- Faye Webster")
+                Text("ceilings- Lizzy McAlpine")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DX6GwdWRQMQpq?si=bc5981249e164c8d")!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/playlist/37i9dQZF1DWVV27DiNWxkR?si=93249651eedc4315")!)
             }
             }
     }
