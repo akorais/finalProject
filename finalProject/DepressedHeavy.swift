@@ -27,7 +27,7 @@ struct DepressedHeavy: View {
                 Text("traitor- Olivia Rodrigo")
                 Text("Daylight- Davie Kushner")
                 
-                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/track/4PTG3Z6ehGkBFwjybzWkR8?si=29cc4ccbf1c9448e)!)
+                Link("Click here for a playlist!",destination: URL (string: "https://open.spotify.com/track/4PTG3Z6ehGkBFwjybzWkR8?si=29cc4ccbf1c9448e")!)
             }
             }
     }
